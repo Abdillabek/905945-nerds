@@ -21,26 +21,78 @@
     </header>
     <main>
       <h1>Магазин готовых шаблонов</h1>
-      <section class="sorting-form">
-        <!-- исправить формы -->
-        <form action="#">
-          <div class="fieldset">
-            <p>Сетка:</p>
-            <span>Адаптивная</span>
-            <span>Фиксированая</span>
-            <span>Резиновая</span>
-          </div>
-          <div class="fieldset">
-            <p>Особенности:</p>
-            <span>Слайдер</span>
-            <span>Блок преимуществ</span>
-            <span>Новости</span>
-            <span>Галерея</span>
-            <span>Корзина</span>
-          </div>
-          <button class="btn" type="submit">Показать</button>
+      <section class="filter__group cost">
+        <h2 class="visually-hidden">Фильтр</h2>
+        <form action="#" method="#" class="catalog-filter-cost">
+          <fieldset class="catalog-group-cost">
+            <div class="cost-range">
+              <div class="range-scale"></div>
+              <button class="button-ot" type="button">От</button>
+              <button class="button-do" type="button">До</button>
+            </div>
+            <legend class="catalog-subtitle">Стоимость:</legend>
+            <p class="cost-data">
+              <label for="cost-min">От</label>
+              <input id="cost-min" type="text" class="cost__field--min"value="0" name="cost-min" required>
+              <label for="cost-max">До</label>
+              <input id="cost-max" type="text" class="cost__field--max" value="15000" name="cost-max" required>
+            </p>
+          </fieldset>
+          <fieldset class="filter-group-grid">
+            <legend class="catalog-subtitle">Сетка:</legend>
+            <p class="filter-item">
+              <label for="grid-1" class="filter-label">Адаптивная</label>
+              <input  id="grid-1" type="radio" name="grid" value="adaptive">
+            </p>
+            <p class="filter-item">
+              <label for="grid-2" class="filter-label">Фиксированная</label>
+              <input  id="grid-2" type="radio"  name="grid" value="Fix">
+            </p>
+            <p class="filter-item">
+              <label for="grid-3" class="filter-label">Резиновая</label>
+              <input  id="grid-3" type="radio"  name="grid" value="rubber" disabled>
+            </p>
+          </fieldset>
+          <fieldset class="filter__group choose-feat">
+            <legend class="catalog-subtitle">Особенности:</legend>
+            <p>
+              <label for="feat-1" class="filter-label">Слайдер</label>
+              <input id="feat-1" type="checkbox" class="filter-label" name="feat" value="slider">
+            </p>
+            <p>
+              <label for="feat-2" class="filter-label">Блок преимуществ</label>
+              <input id="feat-2" type="checkbox" class="filter-label" name="feat" value="advantages">
+            </p>
+            <p>
+              <label for="feat-3" class="filter-label">Новости</label>
+              <input id="feat-3" type="checkbox" class="filter-label" name="feat" value="news">
+            </p>
+            <p>
+              <label for="feat-4" class="filter-label">Галерея</label>
+              <input id="feat-4" type="checkbox" class="filter-label" name="feat" value="gallery">
+            </p>
+            <p>
+              <label for="feat-5" class="filter-label">Корзина</label>
+              <input id="feat-5" type="checkbox" class="filter-label" name="feat" value="basket">
+            </p>
+          </fieldset>
+          <button type="button" class="filter-btn">Показать</button>
         </form>
       </section>
+      <div class="catalog-main">
+        <div class="catalog-sort">
+          <h3 class="catalog-subtitle">Сортировать</h3>
+          <ul class="sort-list">
+            <li class="sort__item"><a href="#" class="sort-link-current"></a>По цене</li>
+            <li class="sort__item"><a href="#" class="sort-link">По типу</li>
+            <li class="sort__item"><a href="#" class="sort-link">По названию</li>
+          </ul>
+          <ul class="sort-list-order">
+            <li class="sort-item-order"><a href="#" class="sort-order-current">По убыванию</a></li>
+            <li class="sort-item-order"><a href="#" class="sort-order-current"></a>По возрастанию</li>
+          </ul>
+        </div>
+      </div>
       <section class="catalog">
         <ul class="catalog-list">
           <li class="catalog-item">
