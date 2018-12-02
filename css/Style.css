@@ -1,8 +1,63 @@
-body {
+.nav-item {
+  font-size:16px;
+line-height:30pt;
+color: #000000;
+}
+
+.promo-item-title {
+font-family: 'Roboto', sans-serif;
+font-size: 24px;
+font-weight: bold;
+line-height: 1.5;
+color:#000000;
+}
+
+.promo-item-description {
 font-family: 'Roboto', sans-serif;
 font-size: 16px;
-font-weight: 400;
-font-style: normal;
-line-height: 1.5;
-color:#C0C0C0;
+line-height: 24pt;
+color:#283136;
+}
+.about-lead {
+font-size:45px;
+line-height:45pt;
+color: #000000;
+}
+
+.about-description {
+font-size:16px;
+line-height:24pt;
+color: #000000;
+}
+
+.about-subtitle {
+  font-weight: bold;
+font-size:16px;
+line-height:24pt;
+color: #283136;
+}
+.about-item {
+font-size:16px;
+line-height:24pt;
+color: #283136;
+}
+
+.about-options-value {
+  font-weight: bold;
+  font-size:45px;
+line-height:10,06pt;
+color: #283136;
+}
+
+.footer-call-title {
+font-weight: bold;
+  font-size:36px;
+line-height:36pt;
+color: #000000;
+}
+
+.footer-call-discount {
+   font-size:16px;
+line-height:22pt;
+color: #444444;
 }
