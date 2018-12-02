@@ -57,7 +57,29 @@ color: #000000;
 }
 
 .footer-call-discount {
+  font-family: 'Roboto', sans-serif;
    font-size:16px;
 line-height:22pt;
 color: #444444;
+}
+
+h1 {
+font-weight: bold;
+  font-size:55px;
+line-height:55pt;
+color: #000000;
+}
+
+.catalog-subtitle {
+  font-weight: bold;
+  font-size:18px;
+line-height:30pt;
+color: #000000;
+}
+
+.sort-link {
+  font-size:14px;
+line-height:18pt;
+color: #000000;
+opacity: 0.5;
 }
