@@ -1,85 +1,170 @@
-.nav-item {
-  font-size:16px;
-line-height:30pt;
-color: #000000;
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+a {
+  text-decoration:none;
+}
+.nav-item, .social-list {
+  list-style: none;
+}
+
+.btn {
+  color: #ffffff;
+  background: #fb565a;
+}
+
+.btn:hover {
+  background: #e74246;
+}
+
+.btn:active {
+  color: rgba(255, 255, 255, 0.3);
+  background: #d7373b;
+}
+
+
+.main-header {
+  background: #eeeeee;
+}
+
+.nav-item a {
+  font-size: 16px;
+  line-height: 30px;
+  color: #000000;
+}
+
+
+.user-basket {
+  font-size: 16px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.nav-item a:hover,
+.user-basket:hover {
+  color: #fb565a;
+}
+
+.nav-item a:active,
+.user-basket:active {
+  color: #000000;
+  opacity: 0.3;
+}
+
+.promo-item-app .btn {
+  background: #00ca74;
+}
+
+.promo-item-app .btn:hover{
+background:#00bc6c;
+}
+
+.promo-item-app .btn:active {
+  background: #00aa62;
+}
+
+
+.promo-item-presention .btn {
+  background: #efc84a;
+}
+
+.promo-item-presention .btn:hover {
+background:#eab534;
+}
+.promo-item-presention .btn:active{
+background:#e5a722;
 }
 
 .promo-item-title {
-font-family: 'Roboto', sans-serif;
-font-size: 24px;
-font-weight: bold;
-line-height: 30pt;
-color:#000000;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 30px;
+  color: #000000;
 }
 
 .promo-item-description {
-font-family: 'Roboto', sans-serif;
-font-size: 16px;
-line-height: 24pt;
-color:#283136;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #283136;
 }
+
 .about-lead {
-font-size:45px;
-line-height:45pt;
-color: #000000;
+  font-size: 45px;
+  line-height: 45px;
+  color: #000000;
 }
 
 .about-description {
-font-size:16px;
-line-height:24pt;
-color: #000000;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
 }
 
 .about-subtitle {
   font-weight: bold;
-font-size:16px;
-line-height:24pt;
-color: #283136;
+  font-size: 16px;
+  line-height: 24px;
+  color: #283136;
 }
+
 .about-item {
-font-size:16px;
-line-height:24pt;
-color: #283136;
+  font-size: 16px;
+  line-height: 24px;
+  color: #283136;
 }
 
 .about-options-value {
   font-weight: bold;
-  font-size:45px;
-line-height:10,06pt;
-color: #283136;
+  font-size: 45px;
+  line-height: 10, 06px;
+  color: #283136;
 }
 
 .footer-call-title {
-font-weight: bold;
-  font-size:36px;
-line-height:36pt;
-color: #000000;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 36px;
+  color: #000000;
 }
 
 .footer-call-discount {
   font-family: 'Roboto', sans-serif;
-   font-size:16px;
-line-height:22pt;
-color: #444444;
+  font-size: 16px;
+  line-height: 22px;
+  color: #444444;
 }
 
 h1 {
-font-weight: bold;
-  font-size:55px;
-line-height:55pt;
-color: #000000;
+  font-weight: bold;
+  font-size: 55px;
+  line-height: 55px;
+  color: #000000;
 }
 
 .catalog-subtitle {
   font-weight: bold;
-  font-size:18px;
-line-height:30pt;
-color: #000000;
+  font-size: 18px;
+  line-height: 30px;
+  color: #000000;
 }
 
 .sort-link {
-  font-size:14px;
-line-height:18pt;
-color: #000000;
-opacity: 0.5;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+  opacity: 0.5;
+}
+
+.social-item a:hover,
+.social-item a:hover {
+  color: red;
+}
+
+.social-item a:active,
+.social-item a:active {
+  color: #d7373b;
+  opacity: 0.3;
 }
